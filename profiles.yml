@@ -4,7 +4,8 @@ jaffle_shop:
      databricks_job:
       type: databricks
       method: http
+      catalog: toyota_demo
       schema: "dbt-jaffle-shop"
       host: "adb-3025046669923412.12.azuredatabricks.net"
       http_path: "/sql/1.0/warehouses/900f29f007ac82ce"
-      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
+      token: dapie5f0f25ac6a2ef9692eec4a7fe7ed3a9
