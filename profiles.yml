@@ -3,7 +3,7 @@ jaffle_shop:
    outputs:
      databricks_job:
       type: databricks
-      method: http
+      method: https
       catalog: toyota_demo
       schema: dbt-jaffle-shop
       host: adb-3025046669923412.12.azuredatabricks.net
